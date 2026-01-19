@@ -1,0 +1,15 @@
+name: QuestLine
+version: '1.0'
+main: org.inmisin.questLine.QuestLine
+api-version: '1.21'
+commands:
+  quest:
+    description: Quest command
+    usage: /quest
+  quests:
+    description: Lists current quests
+    usage: /quests
+permissions:
+  simplequests.admin:
+    description: Quest creation authority
+    default: op
